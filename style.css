@@ -1,0 +1,408 @@
+
+/*
+
+Name theme: WPT_Metal;
+Author: Azzlo Team;
+Author URI: http://azzlo.co;
+
+*/
+
+
+@import url("css/bootstrap.min.css");
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background: rgba(229, 225, 209, 0.1);
+}
+h1{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: #C44741;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    color: #2C343B;
+}
+h3{
+    font-family: 'Merriweather', serif;
+}
+h4{
+    font-family: 'Merriweather', serif;
+}
+h5{
+    font-family: 'Merriweather', serif;
+}
+h6{
+    font-family: 'Merriweather', serif;
+}
+
+.navMenu{
+ background-color: #2C343B;
+}
+.ulMenu{
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #2C343B;
+   margin-left: 22%;
+
+}
+
+.liMenu{
+
+  float: left;
+}
+.liMenu a{
+  display: block;
+  color: #E5E1D1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+
+}
+.liMenu a:hover{
+  background-color: #52616D;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+.imgLogo{
+  display: inline-block;
+  width: 10%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.logo{
+  width: 100%;
+  height: auto;
+}
+.slogan{
+  width: 21%;
+  height: auto;
+}
+.divSocial{
+  display: inline-block;
+  width: 35%;
+  height: auto;
+  float: right;
+
+  color: #2C343B;
+  vertical-align: bottom;
+
+}
+.divSocial:hover{
+    color: #C44741;
+}
+.headerTelefono{
+  display: inline-block;
+  padding: 5px;
+  margin-right: 1em;
+
+}
+
+.headerCorreo{
+  display: inline-block;
+  padding: 5px;
+  margin-right: 1em;
+  cursor: pointer;
+}
+.pieCopy{
+  background-color:#52616D;
+  color: #E5E1D1;
+  padding: 1px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+#footer1{
+  background:#333 ;
+  color: #C44741;
+  padding: 3px;
+    font-family: 'Merriweather', serif;
+}
+#footer1:hover{
+  color: white;
+}
+.pieTelefono{
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin-left: 20%;
+  padding: 3px;
+}
+.pieRedesSociales{
+  display: inline-block;
+  margin-left: 10%;
+}
+.pieRedesSociales i{
+  width: 40px;
+  height: auto;
+  font-size: 22px;
+
+}
+.ifooter:hover{
+cursor: pointer;
+}
+.enLinea{
+  display: inline-block;
+  margin-right: 10px;
+}
+#containerProducto{
+  margin: 1em 5em;
+  text-align: center;
+}
+div#imagen {
+  width: 300px;
+  height: 200px;
+  background-size: cover;/*sólo para ejemplo*/
+  margin: 30px auto;
+  border-radius: 1em;
+  border:2px solid #666;
+}
+div.imagen1 {
+  background-image: url("../images/producto1.JPG");
+}
+div.imagen2 {
+  background-image: url("../images/producto2.JPG");
+}
+div.imagen3 {
+  background-image: url("../images/producto3.JPG");
+}
+
+div#info {
+  position:absolute;
+  overflow:hidden;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(31, 31, 31, 0.6);
+  opacity:0;
+  transition: opacity 1s;
+  border-radius: 1em;
+}
+
+div#imagen:hover div#info {
+  opacity:1;
+}
+
+p#headline {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -75px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+  color: white;
+}
+
+div#imagen:hover p#headline {
+  margin-left: 115px;
+}
+
+p#descripcion {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+  color: white;
+}
+
+div#imagen:hover p#descripcion {
+  margin-top: 75px;
+}
+.seccionProducto{
+  display: inline-block;
+  margin-right: 1em;
+}
+#containerAcercaDe{
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 2%;
+}
+.iAcerca{
+  color: #52616D;
+}
+.divAcercaDe{
+  max-width: 60%;
+  max-height: inherit;
+  display: inline-block;
+  margin-right: 1em;
+
+}
+.divImgAcercaDe{
+  display: inline-block;
+  width: 38%;
+  height: auto;
+  vertical-align: top;
+  text-align: center;
+}
+.imgAcercaDe{
+  border-top-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  margin: 20px;
+   border: 5px solid #eee;
+   -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+   -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+   box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+   -webkit-transition: all 0.5s ease-out;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+}
+.imgAcercaDe:hover{
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+}
+#containerContacto{
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 2%;
+
+}
+.contactoMapa{
+  margin-right: 2em;
+  width: 49%;
+  text-align: center;
+}
+.contactoCorreo{
+  width: 47%;
+  vertical-align: top;
+
+}
+.contact_form h2 {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-radius: 5px;
+    color: #52616D;
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 433px;
+}
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.contact_form li{
+	padding:12px;
+	border-bottom:1px solid #eee;
+	position:relative;
+}
+.contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+	height:20px;
+	width:220px;
+	padding:5px 8px;
+}
+.contact_form textarea {
+	padding:8px;
+	width:300px;
+}
+.contact_form button {
+	margin-left:90px;
+}
+.contact_form input, .contact_form textarea {
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;
+	color: #888;
+	font-size: 12px;
+	padding-right:30px;
+	-moz-transition: padding .25s;
+	-webkit-transition: padding .25s;
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+	background: #fff;
+	border:1px solid #555;
+	box-shadow: 0 0 3px #aaa;
+	padding-right:80px;
+}
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+button.submit {
+    padding: 9px 17px;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px rgba(192, 71, 65, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#E5E1d1));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #E5E1D1, #FFFFFF);
+   background-color: #fff;
+   border: 1px solid #f1f1f1;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+	opacity:.55;
+	cursor: pointer;
+	color: #fff;
+}
+button.submit:active {
+	border: 1px solid #222;
+	box-shadow: 0 0 10px 5px #444 inset;
+}
+.tituloContacto{
+  text-align: center;
+}
+.circuloServicio{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background: #C44741;
+  text-align: center;
+  border: 5px solid white;
+  box-shadow: 5px 5px 5px #C44741;
+
+}
+.circuloServicio:hover{
+  background: #52616D;
+  box-shadow: 5px 5px 5px #52616D;
+}
+.coche{
+  margin-top: 10px;
+}
+#containerServicios{
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: center;
+}
+.pServicio{
+  width: 75%;
+  height: auto;
+  text-align: justify;
+}
+.divLogoServicio{
+  width: 15%;
+  height: auto;
+  text-align: center;
+  margin-left: 5%;
+}
+.divServicio{
+  vertical-align: middle;
+  margin: 2%;
+}
