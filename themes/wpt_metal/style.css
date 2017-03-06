@@ -37,39 +37,55 @@ h5{
 h6{
     font-family: 'Merriweather', serif;
 }
-
-.navMenu{
- background-color: #2C343B;
+.menu-menu-1-container{
+  background:#2C343B;
+  text-align: center;
 }
-.ulMenu{
+.nav{
+
+}
+.nav_list{
   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: #2C343B;
-   margin-left: 22%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1024px;
+  text-align: center;
+  height: auto;
+
 
 }
+.nav_list li{
+  display: inline-block;
+  background-color: #2C343B;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 1em;
 
-.liMenu{
 
-  float: left;
 }
-.liMenu a{
-  display: block;
+.nav_list li a{
+
+  font-family: 'Merriweather', serif;
   color: #E5E1D1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Merriweather', serif;
+  font-size: 18px;
 
 }
-.liMenu a:hover{
+.nav_list li a:visited{
+  color: #999;
+
+
+}
+.nav_list li a:hover{
   background-color: #52616D;
   color: #FFFFFF;
   cursor: pointer;
 
 }
+
 .imgLogo{
   display: inline-block;
   width: 10%;
