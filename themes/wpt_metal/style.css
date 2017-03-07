@@ -24,9 +24,12 @@ h1{
 h2{
     font-family: 'Merriweather', serif;
     color: #2C343B;
+    font-size: 24px;
 }
 h3{
-    font-family: 'Merriweather', serif;
+    font-family: 'Courgette', cursive;
+    color: #C44741;
+    font-weight:400;
 }
 h4{
     font-family: 'Merriweather', serif;
@@ -37,24 +40,26 @@ h5{
 h6{
     font-family: 'Merriweather', serif;
 }
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.7rem;
+}
 .menu-menu-1-container{
   background:#2C343B;
   text-align: center;
 }
-.nav{
 
-}
 .nav_list{
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 100%;
   max-width: 1024px;
-  text-align: center;
   height: auto;
 
 
 }
+
 .nav_list li{
   display: inline-block;
   background-color: #2C343B;
@@ -85,47 +90,35 @@ h6{
   cursor: pointer;
 
 }
-
-.imgLogo{
-  display: inline-block;
-  width: 10%;
+.contenedorLogo{
+  width: 60%;
   height: auto;
-  margin-left: 10%;
-  margin-top: 1%;
+  padding: 0.5em;
 }
-.logo{
+.logoJemac{
   width: 100%;
   height: auto;
 }
-.slogan{
-  width: 21%;
-  height: auto;
-}
-.divSocial{
+.contactoHeader{
   display: inline-block;
-  width: 35%;
-  height: auto;
-  float: right;
-
-  color: #2C343B;
-  vertical-align: bottom;
+  margin-right: 0.5em;
+  color: #C44741;
 
 }
-.divSocial:hover{
-    color: #C44741;
-}
-.headerTelefono{
-  display: inline-block;
-  padding: 5px;
-  margin-right: 1em;
+.contactoHeader:hover{
 
-}
-
-.headerCorreo{
-  display: inline-block;
-  padding: 5px;
-  margin-right: 1em;
+  color: #52616D;
   cursor: pointer;
+
+}
+.contactoHeaderContenedor{
+  padding-top: 7%;
+}
+.tel1{
+  margin-right: 1em;
+}
+.correo1{
+  margin-left: 1em;
 }
 .pieCopy{
   background-color:#52616D;
@@ -168,7 +161,6 @@ cursor: pointer;
   margin-right: 10px;
 }
 #containerProducto{
-  margin: 1em 5em;
   text-align: center;
 }
 div#imagen {
@@ -177,16 +169,16 @@ div#imagen {
   background-size: cover;/*sólo para ejemplo*/
   margin: 30px auto;
   border-radius: 1em;
-  border:2px solid #666;
+  border:1px solid #C44741;
 }
 div.imagen1 {
-  background-image: url("../images/producto1.JPG");
+  background-image: url("http://localhost/wordpress/wp-content/themes/wpt_metal/img/pintura.JPG");
 }
 div.imagen2 {
-  background-image: url("../images/producto2.JPG");
+  background-image: url("http://localhost/wordpress/wp-content/themes/wpt_metal/img/soldadura.JPG");
 }
 div.imagen3 {
-  background-image: url("../images/producto3.JPG");
+  background-image: url("http://localhost/wordpress/wp-content/themes/wpt_metal/img/corte.JPG");
 }
 
 div#info {
@@ -194,7 +186,7 @@ div#info {
   overflow:hidden;
   width: 300px;
   height: 200px;
-  background-color: rgba(31, 31, 31, 0.6);
+  background-color: rgba(196, 71, 65, 0.7);
   opacity:0;
   transition: opacity 1s;
   border-radius: 1em;
@@ -206,11 +198,12 @@ div#imagen:hover div#info {
 
 p#headline {
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
   margin-left: -75px;
   margin-top: 15px;
   transition: margin-left 0.3s;
-  color: white;
+  color: #E5E1D1;
 }
 
 div#imagen:hover p#headline {
@@ -218,7 +211,8 @@ div#imagen:hover p#headline {
 }
 
 p#descripcion {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   margin-top: 200px;
   transition: margin-top 0.4s;
@@ -239,6 +233,7 @@ div#imagen:hover p#descripcion {
 }
 .iAcerca{
   color: #52616D;
+
 }
 .divAcercaDe{
   max-width: 60%;
@@ -246,15 +241,14 @@ div#imagen:hover p#descripcion {
   display: inline-block;
   margin-right: 1em;
 
+
 }
-.divImgAcercaDe{
-  display: inline-block;
-  width: 38%;
-  height: auto;
-  vertical-align: top;
-  text-align: center;
+.divCaracteristica{
+  padding: 1.5em;
 }
+
 .imgAcercaDe{
+
   border-top-left-radius: 2em;
   border-bottom-right-radius: 2em;
   margin: 20px;

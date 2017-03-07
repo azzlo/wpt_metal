@@ -9,19 +9,31 @@
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_url);?>">
   </head>
   <body>
-    <div class="divLogo">
-      <div class="imgLogo">
-        <a href="index.html" class=""><img src="images/logo.png" alt="" class="logo"/></a>
+    <div class="divLogo container">
+      <div class="row">
+        <div class="col-md-7 col-xs-12">
+          <div class="contenedorLogo">
+            <img class="logoJemac" src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/logo.png"/>
+          </div>
 
-      </div>
-      <div class="slogan enLinea">
-        <h1 class="tituloPrincipal">Soldadura y metales</h1>
-      </div>
-      <div class="divSocial">
-        <i class="fa fa-volume-control-phone tel1" aria-hidden="true"></i>
-        <p class="headerTelefono">7751544642</p>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <p class="headerCorreo">7751544642@gmail.com</p>
+        </div>
+        <div class="col-md-5  contactoHeaderContenedor">
+          <div class="contactoHeader ">
+            <i class="fa fa-volume-control-phone " aria-hidden="true"></i>
+
+          </div>
+          <div class="contactoHeader tel1">
+            <p class="headerTelefono">7751544642</p>
+          </div>
+          <div class="contactoHeader correo1">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+          </div>
+          <div class="contactoHeader">
+
+            <p class="headerCorreo">7751544642@gmail.com</p>
+          </div>
+
+        </div>
       </div>
     </div>
 <?php
