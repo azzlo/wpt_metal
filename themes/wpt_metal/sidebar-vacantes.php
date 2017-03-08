@@ -6,7 +6,7 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <h2 class="text-center">ultimos vacantes</h2>
+      <h2 class="text-center">ultimas vacantes</h2>
       <?php
         $args = array('cat' => 3);
         $category_posts = new WP_Query($args);
@@ -15,23 +15,31 @@
           while ($category_posts->have_posts()):
             $category_posts->the_post();
             ?>
-            <article class="">
-              <h3><?php the_title(); ?></h3>
-              <p>
-                <?php the_excerpt(); ?>
-              </p>
-              <footer>
-                <div class=""><b>  <?php the_date(); ?></b>
+            <div class="container">
+              <div class="row">
+                
+                <div class="col-md-12 contVacante">
+                  <article class="articuloVacante">
+                    <h3><?php the_title(); ?></h3>
+                    <p>
+                      <?php the_excerpt(); ?>
+                    </p>
+                    <footer>
+                      <div class=""><b>  <?php the_date(); ?></b>
 
+                      </div>
+                      <div class="">
+                        <small><?php the_author(); ?></small>
+                      </div>
+
+                      <a href="<?php the_permalink(); ?>">Leer mas</a>
+
+                    </footer>
+                  </article>
                 </div>
-                <div class="">
-                  <small><?php the_author(); ?></small>
-                </div>
+              </div>
+            </div>
 
-                <a href="<?php the_permalink(); ?>">Leer mas</a>
-
-              </footer>
-            </article>
 
       <?php
         endwhile;
