@@ -13,7 +13,8 @@
       <div class="row">
         <div class="col-md-7 col-xs-12">
           <div class="contenedorLogo">
-            <img class="logoJemac" src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/logo.png"/>
+            <a href="index.php"><img class="logoJemac"  src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/logo.png"/></a>
+
           </div>
 
         </div>
