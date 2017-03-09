@@ -191,5 +191,41 @@
       </div>
     </div>
   </div>
+  <div class="row">
+    <h2 class="text-center">Pintura</h2>
+    <div class="col-md-4">
+      <img src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/jemac.jpg" alt="" class="imgServicio" style="width:100%; height:auto; border-radius:5px;box-shadow: 3px 3px #52616D; margin:1em;">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/jemac.jpg" alt="" class="imgServicio" style="width:100%; height:auto; border-radius:5px;box-shadow: 3px 3px #52616D; margin:1em;">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/jemac.jpg" alt="" class="imgServicio" style="width:100%; height:auto; border-radius:5px;box-shadow: 3px 3px #52616D; margin:1em;">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <h2 class="text-center">Soldadura</h2>
+    <div class="col-md-3">
+      <img src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/jemac.jpg" alt="" class="imgServicio" style="width:100%; height:auto; border-radius:5px;box-shadow: 3px 3px #52616D; margin:1em;">
+    </div>
+    <div class="col-md-3">
+      <img src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/jemac.jpg" alt="" class="imgServicio" style="width:100%; height:auto; border-radius:5px;box-shadow: 3px 3px #52616D; margin:1em;">
+    </div>
+    <div class="col-md-3">
+      <img src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/jemac.jpg" alt="" class="imgServicio" style="width:100%; height:auto; border-radius:5px;box-shadow: 3px 3px #52616D; margin:1em;">
+    </div>
+    <div class="col-md-3">
+      <img src="http://localhost/wordpress/wp-content/themes/wpt_metal/img/jemac.jpg" alt="" class="imgServicio" style="width:100%; height:auto; border-radius:5px;box-shadow: 3px 3px #52616D; margin:1em;">
+    </div>
+  </div>
 </div>
  <?php get_footer();?>

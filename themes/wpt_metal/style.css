@@ -121,20 +121,20 @@ p{
   margin-left: 1em;
 }
 .pieCopy{
-  background-color:#52616D;
+  background-color:#222;
   color: #E5E1D1;
   padding: 1px;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 #footer1{
-  background:#333 ;
-  color: #C44741;
+  background:#2C343B ;
+    color: white;
   padding: 3px;
     font-family: 'Merriweather', serif;
 }
 #footer1:hover{
-  color: white;
+
 }
 .pieTelefono{
   display: inline-block;
@@ -169,7 +169,7 @@ div#imagen {
   background-size: cover;/*sólo para ejemplo*/
   margin: 30px auto;
   border-radius: 1em;
-  border:1px solid #C44741;
+  border:1px solid #52616D;
 }
 div.imagen1 {
   background-image: url("http://localhost/wordpress/wp-content/themes/wpt_metal/img/pintura.JPG");
@@ -186,7 +186,7 @@ div#info {
   overflow:hidden;
   width: 300px;
   height: 200px;
-  background-color: rgba(196, 71, 65, 0.7);
+  background-color: rgba(44, 52, 59, 0.7);
   opacity:0;
   transition: opacity 1s;
   border-radius: 1em;
